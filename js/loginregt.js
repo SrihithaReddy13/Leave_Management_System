@@ -1,0 +1,11 @@
+$(document).ready(function(){
+	$('#regform').hide();
+	$('#regbtn').click(function(){
+		$('#loginform').hide();
+		$('#regform').show();
+	});
+	$('#linbtn').click(function(){
+		$('#loginform').show();
+		$('#regform').hide();
+	});
+});
